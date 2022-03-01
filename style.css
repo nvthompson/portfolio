@@ -9,3 +9,16 @@
 .skills{
     margin: 1rem;
 }
+
+.resume{
+    color: inherit;
+    color: olive;
+    text-decoration: none;
+    border: outset 8px ;
+}
+
+button > a{
+    color: inherit;
+    color: olive;
+    text-decoration: none;
+}
