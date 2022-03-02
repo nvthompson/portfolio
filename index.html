@@ -14,7 +14,7 @@
 
 <body>
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
+        <a class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
             <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor"
             class="bi bi-flower1" viewBox="0 0 16 16">
             <path
@@ -26,9 +26,9 @@
         <span class="fs-6">Nicole Thompson</span>
         </a>
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">    
-            <li><a href="#about" data-after="welcome" class="nav-link px-2 link-secondary">About</a></li>
-            <li><a href="#projects" data-after="portfolio" class="nav-link px-2 link-secondary">Portfolio</a></li>
-            <li><a href="#contact" data-after="skills" class="nav-link px-2 link-secondary">Skills</a></li>
+            <li><a href="#about" data-after="about" class="nav-link px-2 link-secondary">About</a></li>
+            <li><a href="#portfolio" data-after="portfolio" class="nav-link px-2 link-secondary">Portfolio</a></li>
+            <li><a href="#skills" data-after="skills" class="nav-link px-2 link-secondary">Skills</a></li>
             <li><a href="#contact" data-after="Contact" class="nav-link px-2 link-secondary">Contact</a></li>
         </ul>
     </header>
@@ -51,7 +51,7 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">
+                    <h1 class="fw-light" id="about">
                         ABOUT
                     </h1>
                     <p> Hi, my name is Nicole Thompson and I am a full stack software engineer from Los Angeles,
@@ -72,7 +72,7 @@
         <br />
         <div class="album py-5 bg-light">
             <div class="container">
-                <h3>PORTFOLIO</h3>
+                <h3 id="portfolio">PORTFOLIO</h3>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shawdow-sm">
@@ -149,7 +149,7 @@
         </div>
         <br />
         <br />
-        <div class="skills">
+        <div id="skills" class="skills">
             <h1 class="fw-light">SKILLS</h1>
             <p>
                 <strong>Languages:</strong> HTML | CSS | SASS | JavaScript | Python | React <br>
